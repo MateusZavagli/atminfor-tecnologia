@@ -1,0 +1,168 @@
+navbar-nav {
+    text-align: right;
+}
+body{
+    padding-top: 80px;
+}
+.botton{
+    text-align: center;
+}
+.container{
+    background-color: #0F3864;
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif; 
+    display:table-row-group;
+}
+.container h3{
+    padding: 15px;
+}
+.container img{
+    border-radius: 500px;
+    border-style: solid;
+    border-color: aliceblue;
+    width: 90px;
+    margin: 5px;
+}
+.descricao{
+    display: block;
+    display: flex;
+}
+.service-item h3{
+    color:blue;
+}
+.service-item p{
+    color:dimgray;
+}
+.service-icon{
+    :hover{
+        color: darkblue;
+        transition: 0.5s;
+    }
+}
+.blocks{
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 1100px){
+    .blocks{
+        display:block;
+        justify-content: center;
+    }
+}
+@media (min-width: 769px) and (max-width: 1100px){
+    .blocks{
+        justify-content: center;
+    }  
+  
+}
+.portfolio img,
+.portfolio1 img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+.portfolio{
+    display:flex;
+    gap:20px;
+    padding:20px;
+    justify-content:center;
+}
+.portfolio1{
+    display:flex;
+    gap:20px;
+    padding:20px;
+    justify-content:center;
+}
+.portfolio-item{
+    flex:0 0 300px;
+}
+
+@media (max-width:768px){
+    .portfolio{
+        flex-direction:column;
+    }
+    .portfolio1{
+        flex-direction:column;
+    }
+}
+.container2{
+    margin-top: 80px;
+}   
+.clientes{
+    padding:100px 0;
+    background:#f2f2f2;
+}
+.logos{
+    max-width:1500px;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap:50px 60px;
+    align-items:center;
+    justify-items:center;
+}
+.logos img{
+    max-width:220px;
+    margin-top: 50px;
+    width:100%;
+    height:auto;
+    object-fit:contain;
+    transition:0.3s;
+}
+.contato-suporte{
+    display:flex;
+    justify-content:space-between;
+    gap:80px;
+    padding:80px 10%;
+    background:#f2f2f2;
+}
+.box{
+    flex:1;
+}
+.box h2{
+    color:#2f63ff;
+    font-size:28px;
+    font-weight:700;
+    border-bottom:2px solid #2f63ff;
+    padding-bottom:10px;
+    margin-bottom:30px;
+}
+.item{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin-bottom:25px;
+    font-size:20px;
+    color:#555;
+    flex-wrap: wrap;
+}
+.item a{
+    color:#2f63ff;
+    text-decoration:none;
+    word-break: break-word;
+}
+.item a:hover{
+    text-decoration:underline;
+}
+.icone{
+    font-size:22px;
+}
+.logo-teamviewer{
+    width:150px;
+    height:auto;
+}
+.rodape{
+    background-color: #0F3864;
+    padding: 50px;
+    display: flex;
+}
+@media (max-width:768px){
+    .contato-suporte{
+        flex-direction:column;
+        gap:50px;
+    }
+}
+.img{
+    max-width: 100%;
+    height: auto;
+}
