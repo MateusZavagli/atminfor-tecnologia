@@ -1,0 +1,10 @@
+# Define o comportamento padrão: converte para LF no repo,
+# e para o EOL nativo do SO no checkout.
+* text=auto
+
+# Força arquivos shell script a usarem LF mesmo no Windows
+*.sh text eol=lf
+
+# Força arquivos bat/cmd a usarem CRLF mesmo no Linux
+*.bat text eol=crlf
+*.cmd text eol=crlf
